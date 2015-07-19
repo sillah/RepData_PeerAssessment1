@@ -201,15 +201,12 @@ newdailysteps%>%
 ## 1 10765.64  10762
 ```
  
-Do these values differ from the estimates from the first part of the assignment?   
-Yes. The new values are slightly lower but very close to the estimates from the 
-first part of the assignment.  The mean went down from 10766.19 to 10765.64 and
-the median went down from 10765 to 10762.
-
+Do these values differ from the estimates from the first part of the assignment?  
 What is the impact of imputing missing data on the estimates of the total daily 
 number of steps?  
-Imputing missing data increased the total daily number of steps.
 
+The missing values in the dataset were filled with the mean number of steps for 
+their corresponding 5-minute intervals.  The new values are slightly lower but very close to the estimates from the first part of the assignment.  The mean went down from 10766.19 to 10765.64 and the median went down from 10765 to 10762.Imputing missing data increased the total daily number of steps.
 
 
 ## Are there differences in activity patterns between weekdays and weekends?
